@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+body {
+  background-image: url(9c33a7e35625876dcf8f7ccd91a4e8de7ca620f5_00.gif);
+  background-size: 100vw 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding: 20px;
+}
+
+form{
+  background-color: rgba(240, 248, 255, 0.431);
+  border-radius: 7px;
+  padding: 10px;
+  margin: 10px;
+}
+
+h1, h2{
+  color: #1f2831;
+  margin-bottom: 20px;
+  font: italic 1.2em "Fira Sans", serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 35px;
+}
+
+h2{
+  padding: 2px;
+  margin: 20px;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgba(125, 87, 230, 0.609);
+  border-radius: 6px;
+}
+
+#texto, #add, button{
+  border: 20px;
+  border-radius: 6px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+
+#texto{
+  width: 100%;
+  opacity: .60;
+  display: flex;
+  justify-content: center;
+}
+
+#center{
+  display: flex;
+  justify-content: center;
+}
+
+#quant{
+  display: flex;
+  justify-content: left;
+  font-size: 10px;
+}
+
+#btn{
+  display: flex;
+  justify-content: center;
+}
+
+#add{
+  font-size: 20px;
+  width: 300px;
+  background: plum;
+  color:  #1f2831;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add:hover, button:hover{
+  opacity: .6;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgb(189, 85, 184);
+}
+
+#caixatexto{
+  display: flex;
+  justify-content: center;
+}
+
+#mat{
+  text-align: justify;
+  font-size: 15px;
+  width: 90%;
+  height: 250px;
+  color:  #1f2831;
+  padding: 20px;
+  border-radius: 6px;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.63);
+  word-wrap: normal;
+}
+
+li{
+  height: 40px;
+  margin: 15px 0 15px 0;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trabalho nota/tarefa📝</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Anotações/tarefas📝</h1>
+    <form>
+      <h2>Nova anotação/tarefa</h2>
+      <div id="center">
+        <textarea onkeyup="limite_textarea(this.value)" id="texto" name="texto" rows="5" cols="33" placeholder="Digite uma nova nota/tarefa..." ></textarea>
+      </div>
+      <div id="quant">
+        <p id="rest">Restam:</p>
+        <p id="cont" >255</p> 
+      </div>
+      <div id="btn">
+        <button id="add" type="submit" form="form1" class="add"><img src="add.png" width="30" height="30">Adicionar</button>
+      </div>
+      <h2>Minhas anotações/tarefas</h2>
+      <div id="caixatexto">
+        <ul id="mat">
+        
+        </ul>
+      </div>
+      
+    </form>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
